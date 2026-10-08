@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minecraft — Construa o impossível</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav">
+  <a href="#topo" class="logo">⛏️ Minecraft</a>
+  <a href="#jogar" class="pill">Jogar</a>
+</nav>
+
+<div class="stage" aria-hidden="true"><div class="scene"><div class="cube" id="cube"></div></div></div>
+
+<main id="topo">
+  <section class="sec hero" data-block="grass">
+    <p class="kicker">Apresentando</p>
+    <h1>Minecraft.<br><span class="grad">Construa o impossível.</span></h1>
+    <p class="sub">Um mundo infinito feito de blocos. O resto é com você.</p>
+    <p class="hint">Role para girar o bloco</p>
+  </section>
+
+  <section class="sec left r" data-block="grass">
+    <h2>Mundos<br>sem fim.</h2>
+    <p>Cada semente gera um mundo novo: montanhas, oceanos, cavernas e vilas esperando para serem exploradas.</p>
+  </section>
+
+  <section class="sec right r" data-block="diamond">
+    <h2>Minere.<br>Fabrique.<br>Evolua.</h2>
+    <p>Colete recursos, monte ferramentas melhores e desça mais fundo atrás dos diamantes.</p>
+  </section>
+
+  <section class="sec left r" data-block="tnt">
+    <h2>Sobreviva à noite.<br>Ou construa em paz.</h2>
+    <p>Na Sobrevivência, monstros e fome. No Criativo, recursos ilimitados e voo livre.</p>
+  </section>
+
+  <section class="sec stats r" data-block="diamond">
+    <div><b data-to="3">0</b><span>dimensões</span></div>
+    <div><b data-to="2">0</b><span>edições: Java e Bedrock</span></div>
+    <div><b data-to="4">0</b><span>modos de jogo</span></div>
+    <div><b>∞</b><span>possibilidades</span></div>
+  </section>
+
+  <section class="sec center r" data-block="grass">
+    <h2>Do seu jeito.</h2>
+    <ul class="chips">
+      <li>Sobrevivência</li><li>Criativo</li><li>Aventura</li><li>Espectador</li><li>Multijogador</li><li>Mods</li>
+    </ul>
+  </section>
+
+  <section class="sec center r" id="jogar" data-block="grass">
+    <h2>Pronto para o<br><span class="grad">primeiro bloco?</span></h2>
+    <p class="sub">Seu mundo começa vazio. Não por muito tempo.</p>
+    <a href="#topo" class="btn">Começar a jogar</a>
+    <small>Projeto de fã para fins de demonstração. Não é afiliado à Mojang nem à Microsoft.</small>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
